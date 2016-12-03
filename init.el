@@ -109,8 +109,10 @@
      clojure-mode-extra-font-locking
      groovy-mode
      coffee-mode
+     terraform-mode
      auto-complete
      jade-mode
+     tide
      sws-mode
      prodigy
      cider
