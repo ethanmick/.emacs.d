@@ -7,7 +7,7 @@
       ido-case-fold t
       ido-auto-merge-work-directories-length -1
       ido-create-new-buffer 'always
-      ido-use-filename-at-point t
+      ido-use-filename-at-point nil
       ido-max-prospects 10)
 
 ;; Try out flx-ido for better flex matching between words
