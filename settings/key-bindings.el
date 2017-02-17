@@ -366,6 +366,7 @@
 (global-set-key (kbd "C-.") 'end-of-buffer)
 (global-set-key (kbd "C-,") 'beginning-of-buffer)
 (global-set-key (kbd "C-'") 'indent-region)
+(global-set-key (kbd "C-x C-b") 'switch-to-buffer)
 
 (global-set-key (kbd "M-{") '(lambda ()
                                (interactive)

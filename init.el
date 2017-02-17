@@ -109,6 +109,7 @@
      clojure-mode-extra-font-locking
      groovy-mode
      coffee-mode
+     go-mode
      terraform-mode
      auto-complete
      jade-mode
