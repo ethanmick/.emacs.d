@@ -149,10 +149,10 @@
         sp-remove-active-pair-overlay
         sp-self-insert-command
         subtract-number-at-point
-        subword-right
-        tagedit-forward-barf-tag
         subword-left
         subword-right
+        subword-right
+        tagedit-forward-barf-tag
         tagedit-forward-slurp-tag
         tagedit-insert-dot
         tagedit-insert-equal
@@ -172,6 +172,7 @@
         touch-buffer-file
         transpose-params
         transpose-sexps
+        typescript-insert-and-indent
         wdired-finish-edit
         wdired-next-line
         wdired-previous-line
@@ -189,8 +190,8 @@
         beginning-of-buffer
         cider-eval-ns-form
         cleanup-buffer
-        coffee-dedent-line-backspace
         clj-jump-to-other-file
+        coffee-dedent-line-backspace
         custom-persp/emacs
         describe-key
         dired-toggle-read-only
@@ -202,8 +203,8 @@
         handle-switch-frame
         ido-switch-buffer
         js2-enter-key
-        js2r-expand-object
         js2r-add-to-globals-annotation
+        js2r-expand-object
         js2r-extract-var
         js2r-rename-var
         jump-between-source-and-test-files
