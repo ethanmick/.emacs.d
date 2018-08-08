@@ -110,6 +110,7 @@
      groovy-mode
      coffee-mode
      go-mode
+     web-mode
      terraform-mode
      auto-complete
      jade-mode

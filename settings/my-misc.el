@@ -62,4 +62,28 @@
 
 (global-set-key (kbd "M-U") 'unfill-paragraph)
 
+;; Run Go import for me
+(defun goimport-save ()
+  "Run `goimports on file save`"
+  (when (eq major-mode 'go-mode)
+    (shell-command-to-string (format "goimports -w %s" buffer-file-name))))
+
+(add-hook 'after-save-hook 'goimport-save)
+
+
+(require 'web-mode)
+(add-to-list 'auto-mode-alist '("\\.ts\\'" . web-mode))
+(setq web-mode-markup-indent-offset 2)
+(setq web-mode-css-indent-offset 2)
+(setq web-mode-code-indent-offset 2)
+
+;; Prettier
+(require 'prettier-js)
+(add-hook 'js2-mode-hook 'prettier-js-mode)
+(add-hook 'web-mode-hook 'prettier-js-mode)
+(add-hook 'typescript-mode 'prettier-js-mode)
+
+(setq prettier-js-args '("--no-semi" "false" "--single-quote" "true"))
+
+
 (provide 'my-misc)
